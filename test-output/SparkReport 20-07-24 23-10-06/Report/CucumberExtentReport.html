@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jul 20, 2024 02:56:19 pm</span></a>
+<a href="#"><span class="badge badge-primary">Jul 20, 2024 11:10:06 pm</span></a>
 </li>
 </ul>
 </div>
@@ -84,9 +84,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Registeration Data Driven with Excel</p>
+            <p class="name">Logout</p>
             <p class="text-sm">
-              <span>2:56:20 pm</span> / <span>00:00:58:663</span>
+              <span>11:10:07 pm</span> / <span>00:00:06:240</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -94,10 +94,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Registeration Data Driven with Excel</h5>
-<span class='badge badge-success'>07.20.2024 2:56:20 pm</span>
-<span class='badge badge-danger'>07.20.2024 2:57:19 pm</span>
-<span class='badge badge-default'>00:00:58:663</span>
+<h5 class="test-status text-fail">Logout</h5>
+<span class='badge badge-success'>07.20.2024 11:10:07 pm</span>
+<span class='badge badge-danger'>07.20.2024 11:10:14 pm</span>
+<span class='badge badge-default'>00:00:06:240</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -109,44 +109,44 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Registeration Data Driver Excel</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Logout User Account</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
       </div>
     </div>
-        <div class="scenario_outline ">
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Registeration Data Driver Excel</div>
-                    <div class="status-avatar float-right">
-                      <i class="fa fa-paperclip"></i>
-                    </div>
-                </div>
-              </div>
-              <div class="card-body mt-3 ">
-                  <div class="step pass-bg">
-                    <span>Given the user navigate to Account Registration page</span>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.LogoutSteps.the_user_redirects_to_the_login_page()">
+                <span>Given the user redirects to the login page</span>
       <div>
       </div>
-                  </div>
-                  <div class="step fail-bg">
-                    <span>Then the account should be created by providing mandatory details, select Privacy Policy and click on continue button with excel row "1"</span>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LogoutSteps.the_user_provides_the_details(io.cucumber.datatable.DataTable)">
+                <span>When the user provides the details</span>
+      <div><table class='markup-table table '><tr><td>email</td><td>yogeshqa23@gmail.com</td></tr><tr><td>password</td><td>123456</td></tr></table>
+      </div>
       <div>
-        <textarea disabled class="code-block">junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:55)
-	at junit.framework.Assert.assertTrue(Assert.java:22)
-	at junit.framework.Assert.assertTrue(Assert.java:31)
-	at stepDefinitions.RegistrationDDTExcelSteps.the_account_should_be_created_by_providing_mandatory_details_with_excel_row_select_privacy_policy_and_click_on_continue_button(RegistrationDDTExcelSteps.java:86)
-	at ✽.the account should be created by providing mandatory details, select Privacy Policy and click on continue button with excel row "1"(file:///E:/Yogesh/udemy-selenium-workspace/OpenCart_Cucumber/./Features/RegisterationDDTExcel.feature:6)
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LogoutSteps.the_user_clicks_on_the_login_page()">
+                <span>And the user clicks on the login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinitions.LogoutSteps.the_user_click_on_the_logout_link()">
+                <span>And the user click on the logout link</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "pageObjects.LogoutPage.clickLogout()" because "this.lgp" is null
+	at stepDefinitions.LogoutSteps.the_user_click_on_the_logout_link(LogoutSteps.java:56)
+	at ✽.the user click on the logout link(file:///E:/Yogesh/udemy-selenium-workspace/OpenCart_Cucumber/./Features/Logout.feature:18)
 </textarea>
       
       </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>hooks.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
-      <div>Registeration Data Driver Excel
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>hooks.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Logout User Account
           <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
     
@@ -154,66 +154,13 @@
 </div>
       <div>
       </div>
-                  </div>
               </div>
-            </div>
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>Registeration Data Driver Excel</div>
-                </div>
-              </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
-                    <span>Given the user navigate to Account Registration page</span>
-      <div>
+              <div class="step skip-bg" title="stepDefinitions.LogoutSteps.the_user_should_logout_successfully()">
+                <span>Then the user should logout successfully</span>
+      <div>Step skipped
       </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then the account should be created by providing mandatory details, select Privacy Policy and click on continue button with excel row "2"</span>
-      <div>
-      </div>
-                  </div>
               </div>
-            </div>
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="17"><span class="badge log pass-bg mr-2">Pass</span>Registeration Data Driver Excel</div>
-                </div>
-              </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
-                    <span>Given the user navigate to Account Registration page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then the account should be created by providing mandatory details, select Privacy Policy and click on continue button with excel row "3"</span>
-      <div>
-      </div>
-                  </div>
-              </div>
-            </div>
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="24"><span class="badge log pass-bg mr-2">Pass</span>Registeration Data Driver Excel</div>
-                </div>
-              </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
-                    <span>Given the user navigate to Account Registration page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then the account should be created by providing mandatory details, select Privacy Policy and click on continue button with excel row "4"</span>
-      <div>
-      </div>
-                  </div>
-              </div>
-            </div>
+          </div>
         </div>
   </div>
 </div>
@@ -241,12 +188,12 @@
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">junit.framework.AssertionFailedError</p>
+<p class="name">java.lang.NullPointerException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>junit.framework.AssertionFailedError</h4>
+<h4>java.lang.NullPointerException</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -260,11 +207,11 @@
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>14:56:24 pm</td>
+<td>23:10:13 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='7'>Then the account should be created by providing mandatory details, select Privacy Policy and click on continue button with excel row "1"</a>
+<a href="#" class="linked" test-id='1' id='10'>And the user click on the logout link</a>
 <div class="">
-<span class="badge badge-default">Registeration Data Driven with Excel.Registeration Data Driver Excel.Then the account should be created by providing mandatory details, select Privacy Policy and click on continue button with excel row "1"</span>
+<span class="badge badge-default">Logout.Logout User Account.And the user click on the logout link</span>
 </div>
 </td>
 </tr>
@@ -285,13 +232,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jul 20, 2024 02:56:19 pm</h3>
+<h3>Jul 20, 2024 11:10:06 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jul 20, 2024 02:57:19 pm</h3>
+<h3>Jul 20, 2024 11:10:14 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -342,9 +289,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='75%'><b>3</b> scenarios passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='25%'><b>1</b> scenarios failed,
+<small data-tooltip='100%'><b>1</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -362,10 +309,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='88%'><b>8</b> steps passed</small></div>
+<div><small data-tooltip='66%'><b>4</b> steps passed</small></div>
 <div>
-<small data-tooltip='11%'><b>1</b> steps failed,
-<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='16%'><b>1</b> steps failed,
+<b>1</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -381,7 +328,7 @@
 </div></div>
 <script>
 var timeline = {
-"Registeration Data Driven with Excel":58.663
+"Logout":6.24
 };
 </script>
 <div class="row">
@@ -395,16 +342,16 @@ failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 3,
+passChild: 0,
 failChild: 1,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 8,
+passGrandChild: 4,
 failGrandChild: 1,
 warningGrandChild: 0,
-skipGrandChild: 0,
+skipGrandChild: 1,
 infoGrandChild: 0,
 eventsCount: 5,
 };

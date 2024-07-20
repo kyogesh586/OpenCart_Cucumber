@@ -27,6 +27,9 @@ public class HomePage extends BasePage {
 		@FindBy(xpath="//div[@id='search']//button[@type='button']") //For Search Product Test
 		WebElement btnSearch;
 		
+		@FindBy(xpath="//*[@id=\"logo\"]/a/img")
+		WebElement imglogo;
+		
 		
 			
 		// Action Methods
@@ -36,6 +39,11 @@ public class HomePage extends BasePage {
 
 		public void clickRegister() {
 			lnkRegister.click();
+		}
+		
+		public boolean isLinkLoginDisplay() {
+			
+			return linkLogin.isDisplayed();
 		}
 		
 		public void clickLogin()    // added in step6
@@ -51,6 +59,11 @@ public class HomePage extends BasePage {
 		public void clickSearch()  //For Search Product Test
 		{
 			btnSearch.click();
+		}
+		
+		public boolean isLogoDisplayed() {
+			
+			return imglogo.isDisplayed();
 		}
 
 }
